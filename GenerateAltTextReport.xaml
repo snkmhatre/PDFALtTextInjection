@@ -122,7 +122,7 @@
       <ui:AddDataColumn x:TypeArguments="x:String" Column="{x:Null}" DefaultValue="{x:Null}" AllowDBNull="True" AutoIncrement="False" ColumnName="ImagePath" DataTable="[dt_image_altText]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="258,22" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_5" MaxLength="1000" Unique="False" />
       <ui:AddDataColumn x:TypeArguments="x:Object" Column="{x:Null}" DefaultValue="{x:Null}" AllowDBNull="True" AutoIncrement="False" ColumnName="AltText" DataTable="[dt_image_altText]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="258,22" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_3" MaxLength="1000" Unique="False" />
     </Sequence>
-    <ui:ForEach x:TypeArguments="sxl:XElement" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="593,313" sap2010:WorkflowViewState.IdRef="ForEach`1_8" Values="[xmlDoc.Elements(&quot;TaggedPDF-doc&quot;).Elements(&quot;Slide&quot;)]">
+    <ui:ForEach x:TypeArguments="sxl:XElement" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="593,313" sap2010:WorkflowViewState.IdRef="ForEach`1_8" Values="[xmlDoc.Elements(&quot;TaggedPDF-doc&quot;)]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="sxl:XElement">
           <ActivityAction.Argument>

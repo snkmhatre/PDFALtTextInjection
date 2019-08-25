@@ -168,7 +168,7 @@
           <Transition DisplayName="Success" sap:VirtualizedContainerService.HintSize="446,507" sap2010:WorkflowViewState.IdRef="Transition_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <av:PointCollection x:Key="ConnectorLocation">411.45,191 411.45,221 412,221 412,293.5</av:PointCollection>
+                <av:PointCollection x:Key="ConnectorLocation">411.45,192 411.45,222 411.5,222 411.5,293.5</av:PointCollection>
                 <x:Int32 x:Key="SrcConnectionPointIndex">43</x:Int32>
                 <x:Int32 x:Key="DestConnectionPointIndex">38</x:Int32>
               </scg:Dictionary>
@@ -219,7 +219,7 @@
                                 <OutArgument x:TypeArguments="x:Boolean" x:Key="out_isExtractSuccess">[isExtractSuccess]</OutArgument>
                               </ui:InvokeWorkflowFile.Arguments>
                             </ui:InvokeWorkflowFile>
-                            <If Condition="[isExtractSuccess]" sap:VirtualizedContainerService.HintSize="509,454" sap2010:WorkflowViewState.IdRef="If_3">
+                            <If Condition="[isExtractSuccess OR true]" sap:VirtualizedContainerService.HintSize="509,454" sap2010:WorkflowViewState.IdRef="If_3">
                               <If.Then>
                                 <Sequence sap:VirtualizedContainerService.HintSize="368,306" sap2010:WorkflowViewState.IdRef="Sequence_10">
                                   <sap:WorkflowViewStateService.ViewState>
